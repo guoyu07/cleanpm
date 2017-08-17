@@ -1,0 +1,15 @@
+{
+  "name": "cleanpm",
+  "version": "1.0.0",
+  "description": "Purge \"npm_modules\" folders in all sub-directories",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "clean"
+  ],
+  "author": "Haitao Xin",
+  "license": "ISC"
+}
