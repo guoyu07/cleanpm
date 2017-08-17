@@ -15,5 +15,5 @@ A small project to clean npm_modules folders under a certain directory and all i
 3. If there is a subdirectory called "npm_modules", then delete it (asynchronously) and return to upper level; otherwise go back to step 2 with each subdirectory as current path
 
 ## Note
-1. Only a subfolder called "npm_modules" will be deleted; a file/link with this name is ignored
+1. Only the subfolder called "npm_modules" will be deleted; a file/link with this name is ignored
 2. As long as one "npm_modules" subfolder is found, no other subfolders under the same parent will be ignored
